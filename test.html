@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div id="sidebar">
+    <div class="logo">
+      <img src="images/[oc.png">
+    </div>
+    <a href="#"><i class="fas fa-home"></i>Home</a>
+    <a href="#"><i class="fas fa-clipboard"></i>&nbsp;&nbsp;Test</a>
+    <a href="#"><i class="fas fa-user"></i>&nbsp;Profile</a>
+    <a href="#"><i class="fas fa-road"></i>Roadmap</a>
+    <a href="#"><i class="fas fa-briefcase"></i>&nbsp;Jobs</a>
+  </div>
+    <div class="container">
+      <div class="quiz-container">
+        <h1>Quiz: Test Your Knowledge</h1>
+        <h4>This test contains 120 items
+          Answer the test based on your knowledge
+          This test will determine the suggested specialization for you
+          Multiple choice type of question</h4>
+
+        <form id="quiz-form">
+          <div id="question-container">
+            <h3></h3>
+            <div id="options"></div>
+          </div>
+          <div id="navigation">
+            <button id="prev-btn" disabled>Previous</button>
+            <button id="next-btn">Next</button>
+          </div>
+          <div id="results" class="hidden">
+            <h2>Results</h2>
+            <p>Your score: <span id="score-value">0</span> / 10</p>
+          </div>
+          <button type="submit" id="submit-btn" class="hidden">Submit</button>
+        
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="test.js"></script>
+</body>
+</html>
