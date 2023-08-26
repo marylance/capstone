@@ -1,47 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="test.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="test.css">
+  <title>Test</title>
 </head>
 <body>
-  <div id="sidebar">
+  <div class="input">
     <div class="logo">
-      <img src="images/[oc.png">
+      <img src="images/logo.png" alt="Logo">
     </div>
-    <a href="#"><i class="fas fa-home"></i>Home</a>
-    <a href="#"><i class="fas fa-clipboard"></i>&nbsp;&nbsp;Test</a>
-    <a href="#"><i class="fas fa-user"></i>&nbsp;Profile</a>
-    <a href="#"><i class="fas fa-road"></i>Roadmap</a>
-    <a href="#"><i class="fas fa-briefcase"></i>&nbsp;Jobs</a>
+    <button class="value"><i class="fas fa-file-alt"></i> Test</button>
+    <button class="value"><i class="fas fa-user"></i> Profile</button>
+    <button class="value"><i class="fas fa-home"></i> Home</button>
+    <button class="value"><i class="fas fa-map"></i> Roadmap</button>
+    <button class="value"><i class="fas fa-briefcase"></i> Jobs</button>
   </div>
-    <div class="container">
-      <div class="quiz-container">
-        <h1>Quiz: Test Your Knowledge</h1>
-        <h4>This test contains 120 items
-          Answer the test based on your knowledge
-          This test will determine the suggested specialization for you
-          Multiple choice type of question</h4>
 
-        <form id="quiz-form">
-          <div id="question-container">
-            <h3></h3>
-            <div id="options"></div>
-          </div>
-          <div id="navigation">
-            <button id="prev-btn" disabled>Previous</button>
-            <button id="next-btn">Next</button>
-          </div>
-          <div id="results" class="hidden">
-            <h2>Results</h2>
-            <p>Your score: <span id="score-value">0</span> / 10</p>
-          </div>
-          <button type="submit" id="submit-btn" class="hidden">Submit</button>
+  <div class="quiz-container">
+    <h1>Quiz: Test Your Knowledge!
+    </h1>
+
+    <div class = "row">
+      <div class = "col">
         
-        </form>
+          <img src="images/new.png">
+        
+      </div>
+      <div class = "col">
+        <p>1.This test contains 120 items<br>
+            2.Answer the test based on your knowledge<br>
+            3.This test will determine the suggested specialization for you<br>
+            4.Multiple choice type of question</p>
       </div>
     </div>
+    <a href="hello.html" class="btn">Get Started</a>
+  
   </div>
-  <script src="test.js"></script>
 </body>
 </html>
